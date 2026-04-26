@@ -1,11 +1,11 @@
 <!-- Header Section -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=250&section=header&text=Hi%20👋,%20I'm%20Pritam&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Data%20Scientist%20%7C%20Machine%20Learning%20Engineer&descAlignY=55&descAlign=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=1,2,3&height=250&section=header&text=Hi%20👋,%20I'm%20Pritam&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Energy%20Science%20Student%20@%20IIT%20Bombay%20%7C%20ML%20%26%20Energy%20Analytics%20Enthusiast&descAlignY=55&descAlign=50" width="100%" />
 </div>
 
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F0FF&center=true&vCenter=true&width=435&lines=Data+Scientist;Machine+Learning+Engineer;Deep+Learning+Enthusiast;Python+Developer" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F0FF&center=true&vCenter=true&width=500&lines=Energy+Analytics+Enthusiast;Machine+Learning+Explorer;Data+Science+Learner;Energy+Systems+Student" alt="Typing SVG" style="max-width: 100%; height: auto;" />
   </a>
 </div>
 
@@ -14,7 +14,7 @@
 <!-- Trophies Section -->
 <div align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=pritam-09-ops&theme=tokyonight&margin-w=15&margin-h=15&column=7&no-frame=true" alt="Pritam's Trophies" />
+    <img src="https://github-profile-trophy.vercel.app/?username=pritam-09-ops&theme=tokyonight&margin-w=15&margin-h=15&column=7&no-frame=true" alt="Pritam's Trophies" style="max-width: 100%; height: auto;" />
   </a>
 </div>
 
@@ -25,14 +25,15 @@
 ### 🚀 About Me
 
 <div align="center">
-  <img src="https://media.giphy.com/media/vgO6x0XIfjB4A4h7hD/giphy.gif" width="150" align="right">
+  <img src="https://media.giphy.com/media/vgO6x0XIfjB4A4h7hD/giphy.gif" width="120" align="right" style="margin-left: 20px;">
 </div>
 
-- 🔭 I’m currently working on projects involving **CNN-LSTM models, Solar Forecasting, and Battery SOH analysis.**
-- 🌱 I’m constantly exploring deeper into **AI Agents and Advanced Neural Networks.**
-- 💬 Ask me about **Python, Jupyter, Data Science, and Machine Learning architectures.**
-- 📫 How to reach me: Drop a message on my GitHub or via email!
-- ⚡ Fun fact: *I love finding patterns in data and predicting the unpredictable!*
+- 🎓 I'm an **Energy Science & Engineering** student at **IIT Bombay** (2024 - 2028).
+- 🔭 I’m currently working on **Energy Analytics**, **Solar & Wind Power Forecasting**, and **Deep Learning (CNN-LSTM)**.
+- 🌱 I’m constantly exploring deeper into **Microgrid Design**, **Robotics/UAVs**, and **Finance/Investment Strategies**.
+- 💬 Ask me about **Python, PyTorch, Time-Series Forecasting, and Energy Systems**.
+- 📫 How to reach me: Drop an email at **pritamnew18@gmail.com** or connect on LinkedIn/GitHub!
+- ⚡ Fun fact: I organize events for Asia's Largest College Cultural Festival (**Mood Indigo**) managing over 25,000+ participants!
 
 <br>
 
@@ -42,7 +43,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,jupyter,pytorch,tensorflow,scikit,pandas,docker,git,github,vscode,linux,bash&perline=12" alt="My Skills" />
+    <img src="https://skillicons.dev/icons?i=python,cpp,matlab,pytorch,tensorflow,scikit,pandas,docker,git,github,vscode,linux&perline=12" alt="My Skills" style="max-width: 100%; height: auto;" />
   </a>
 </p>
 
@@ -53,18 +54,14 @@
 ### 📈 GitHub Analytics
 
 <div align="center">
-  <table width="100%">
-    <tr>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=pritam-09-ops&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub stats" width="100%" />
-      </td>
-      <td width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritam-09-ops&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" width="100%" />
-      </td>
-    </tr>
-  </table>
+  <p>
+    <img src="https://github-readme-stats.vercel.app/api?username=pritam-09-ops&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub stats" style="width: 48%; min-width: 300px; display: inline-block; margin: 5px;" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritam-09-ops&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" style="width: 48%; min-width: 300px; display: inline-block; margin: 5px;" />
+  </p>
   <br>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=pritam-09-ops&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" width="100%" />
+  <p>
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=pritam-09-ops&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" style="width: 100%; max-width: 800px; height: auto;" />
+  </p>
 </div>
 
 <br>
@@ -77,7 +74,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pritam-09-ops/pritam-09-ops/output/github-contribution-grid-snake-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pritam-09-ops/pritam-09-ops/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pritam-09-ops/pritam-09-ops/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pritam-09-ops/pritam-09-ops/output/github-contribution-grid-snake.svg" style="max-width: 100%; height: auto;">
   </picture>
 </p>
 
