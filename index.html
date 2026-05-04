@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritam Mandal — Energy × AI</title>
+    <meta name="description" content="Pritam Mandal — Energy Science student at IIT Bombay exploring the frontier of Energy Analytics, Deep Learning, and Autonomous Systems.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Particle Canvas Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-follower" id="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-inner">
+            <a href="#hero" class="nav-logo">PM<span>.</span></a>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#github" class="nav-link">GitHub</a>
+                <button id="contact-btn" class="nav-contact-btn">Contact</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="hero">
+        <div class="hero-badge reveal">Energy Science × Artificial Intelligence</div>
+        <h1 class="hero-name reveal">
+            <span class="hero-line">Pritam</span>
+            <span class="hero-line hero-line-accent">Mandal</span>
+        </h1>
+        <div class="hero-typewriter reveal">
+            <span class="typewriter-prefix">I am a</span>
+            <span id="typewriter" class="typewriter-text"></span>
+            <span class="typewriter-cursor"></span>
+        </div>
+        <p class="hero-desc reveal">B.Tech Energy Science & Engineering @ IIT Bombay (2024–28)<br>Building intelligent systems for renewable energy forecasting & control.</p>
+        <div class="hero-actions reveal">
+            <a href="#projects" class="btn-glow">Explore Projects</a>
+            <a href="https://github.com/pritam-09-ops" target="_blank" class="btn-outline">GitHub Profile</a>
+        </div>
+        <div class="hero-scroll">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- Stats Counter Bar -->
+    <section id="stats-bar">
+        <div class="stat-item reveal">
+            <span class="stat-number" data-target="94.5">0</span><span class="stat-suffix">%</span>
+            <span class="stat-label">GHI Forecast Accuracy</span>
+        </div>
+        <div class="stat-item reveal">
+            <span class="stat-number" data-target="0.989">0</span>
+            <span class="stat-label">R² Wind Power Model</span>
+        </div>
+        <div class="stat-item reveal">
+            <span class="stat-number" data-target="25000" data-is-int="true">0</span><span class="stat-suffix">+</span>
+            <span class="stat-label">Mood Indigo Participants</span>
+        </div>
+        <div class="stat-item reveal">
+            <span class="stat-number" data-target="8">0</span>
+            <span class="stat-label">Major Projects</span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">01.</span> About Me</h2>
+            <div class="about-layout">
+                <div class="about-text reveal">
+                    <p>I'm a second-year <strong>Energy Science & Engineering</strong> student at <strong>IIT Bombay</strong>, driven by the vision of making renewable energy smarter through data and machine learning.</p>
+                    <p>My work spans <strong>CNN-LSTM architectures</strong> for solar irradiance prediction, <strong>XGBoost pipelines</strong> for SCADA-based wind turbine forecasting, and <strong>HOMER Pro</strong> simulations for hybrid microgrid design.</p>
+                    <p>Beyond energy, I explore <strong>real-time computer vision</strong>, build <strong>autonomous robots and UAVs</strong>, and develop <strong>quantitative finance strategies</strong>. I also serve as Administrative Coordinator for <strong>Mood Indigo</strong>, Asia's largest college cultural festival.</p>
+                </div>
+                <div class="about-visual reveal">
+                    <div class="orbit-container">
+                        <div class="orbit-ring orbit-ring-1"></div>
+                        <div class="orbit-ring orbit-ring-2"></div>
+                        <div class="orbit-ring orbit-ring-3"></div>
+                        <div class="orbit-center">
+                            <span>PM</span>
+                        </div>
+                        <div class="orbit-dot orbit-dot-1" data-label="Energy"></div>
+                        <div class="orbit-dot orbit-dot-2" data-label="ML"></div>
+                        <div class="orbit-dot orbit-dot-3" data-label="Robotics"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">02.</span> Tech Stack</h2>
+            <div class="skills-categories">
+
+                <div class="skill-group reveal">
+                    <div class="skill-group-header">
+                        <div class="skill-icon">🧠</div>
+                        <h3>ML & Deep Learning</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="pill">PyTorch</span>
+                        <span class="pill">TensorFlow</span>
+                        <span class="pill">XGBoost</span>
+                        <span class="pill">CNN-LSTM</span>
+                        <span class="pill">Optuna</span>
+                        <span class="pill">Scikit-learn</span>
+                        <span class="pill">Transfer Learning</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <div class="skill-group-header">
+                        <div class="skill-icon">⚡</div>
+                        <h3>Energy & Engineering</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="pill">HOMER Pro</span>
+                        <span class="pill">SCADA</span>
+                        <span class="pill">Fusion 360</span>
+                        <span class="pill">AutoCAD</span>
+                        <span class="pill">PCB Design</span>
+                        <span class="pill">Embedded C++</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <div class="skill-group-header">
+                        <div class="skill-icon">📊</div>
+                        <h3>Data Science & Finance</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="pill">Pandas</span>
+                        <span class="pill">NumPy</span>
+                        <span class="pill">Time-Series Forecasting</span>
+                        <span class="pill">Feature Engineering</span>
+                        <span class="pill">DCF Valuation</span>
+                        <span class="pill">Equity Research</span>
+                    </div>
+                </div>
+
+                <div class="skill-group reveal">
+                    <div class="skill-group-header">
+                        <div class="skill-icon">💻</div>
+                        <h3>Languages & Tools</h3>
+                    </div>
+                    <div class="skill-pills">
+                        <span class="pill">Python</span>
+                        <span class="pill">C++</span>
+                        <span class="pill">MATLAB</span>
+                        <span class="pill">Git / GitHub</span>
+                        <span class="pill">Docker</span>
+                        <span class="pill">Linux</span>
+                        <span class="pill">Jupyter</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">03.</span> Projects</h2>
+            <div class="project-scroll-wrapper">
+                <div class="project-track" id="project-track">
+
+                    <article class="project-card reveal" data-category="energy-analytics">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Energy Data Analytics</span>
+                        <h3>Solar Irradiance & PV Power Prediction</h3>
+                        <p>Engineered CNN-LSTM hybrid (PyTorch) for GHI forecasting achieving <strong>94.5% accuracy</strong>. Derived Clearness Index & Solar Zenith Angle features. Proposed Duck Curve curtailment strategies for ramp management.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Dec 2025 – Feb 2026</span>
+                            <div class="card-techs"><span>PyTorch</span><span>CNN-LSTM</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="energy-analytics">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Energy Data Analytics</span>
+                        <h3>Wind Turbine Forecasting via SCADA</h3>
+                        <p>Built XGBoost + LSTM pipeline with Optuna Bayesian optimisation achieving <strong>R² = 0.989</strong>, RMSE = 35.7 kW across 50+ hyperparameter trials. Identified Rotor Speed & Pitch Angle as dominant predictors.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Oct – Dec 2025</span>
+                            <div class="card-techs"><span>XGBoost</span><span>Optuna</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="energy">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Energy</span>
+                        <h3>Hybrid Solar–Battery–H₂ Microgrid</h3>
+                        <p>Designed fully off-grid system (170 kW PV, 500 kWh LFP, 80 kW PEM electrolyser) in <strong>HOMER Pro</strong> for a 4,300 m Himalayan outpost. 8,760-hour simulation proved <strong>60% LCOE reduction</strong> vs diesel.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Jan – Apr 2025</span>
+                            <div class="card-techs"><span>HOMER Pro</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="data-science">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Deep Learning</span>
+                        <h3>Real-Time Object Detection & Segmentation</h3>
+                        <p>Developed PyTorch deep learning pipeline for real-time instance segmentation on video. Applied transfer learning (ResNet & VGG), reducing convergence by <strong>40%</strong> with IoU-based loss and mosaic augmentation.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Aug – Nov 2025</span>
+                            <div class="card-techs"><span>PyTorch</span><span>ResNet</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="robotics">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Robotics</span>
+                        <h3>UAV Flight Control System</h3>
+                        <p>Designed UAV enclosure (Fusion 360/AutoCAD) with custom PCB and <strong>C++ firmware</strong> for low-latency closed-loop control. Integrated IMU, barometric sensors, and RF modules with sensor noise filtering.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Aug – Nov 2024</span>
+                            <div class="card-techs"><span>C++</span><span>PCB</span><span>Fusion 360</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="robotics">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Robotics</span>
+                        <h3>Gesture-Controlled Autonomous Robot</h3>
+                        <p>Built gesture-controlled robot (Raspberry Pi Pico + ESP01) with <strong>sub-100 ms ESP-NOW latency</strong>. MPU6050 IMU + PID controller in C++ for smooth directional control across varied terrain.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Aug – Sep 2024</span>
+                            <div class="card-techs"><span>C++</span><span>ESP-NOW</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="finance">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Finance</span>
+                        <h3>Portfolio Management — Long-Term Strategy</h3>
+                        <p>Led 3-member team to build 8-year multi-asset strategy targeting <strong>400% growth</strong> (Rs. 80L → Rs. 4 Cr) with Excel models forecasting 16.5% CAGR incorporating real estate and macro triggers.</p>
+                        <div class="card-meta">
+                            <span class="card-date">Jun – Jul 2025</span>
+                            <div class="card-techs"><span>Financial Modelling</span></div>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal" data-category="finance">
+                        <div class="card-accent"></div>
+                        <span class="card-tag">Finance</span>
+                        <h3>Equity Research — Maruti Suzuki India</h3>
+                        <p>Issued BUY via DCF/P/E ~25× valuation. Identified –31-day cash conversion cycle as structural moat. EPS Rs. 94→Rs. 461 over 10 years; <strong>72% compounded 3-year profit growth</strong>.</p>
+                        <div class="card-meta">
+                            <span class="card-date">2025</span>
+                            <div class="card-techs"><span>DCF</span><span>Equity Research</span></div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+            <div class="scroll-hint">
+                <span>← Drag to explore →</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub -->
+    <section id="github">
+        <div class="container">
+            <h2 class="section-heading reveal"><span class="heading-number">04.</span> GitHub Analytics</h2>
+            <div class="github-grid">
+                <div class="gh-card reveal">
+                    <img src="https://github-readme-stats.vercel.app/api?username=pritam-09-ops&show_icons=true&theme=transparent&hide_border=true&title_color=00F0FF&icon_color=FF5722&text_color=ffffff&bg_color=00000000" alt="GitHub stats" width="100%" loading="lazy" />
+                </div>
+                <div class="gh-card reveal">
+                    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pritam-09-ops&layout=compact&theme=transparent&hide_border=true&title_color=00F0FF&text_color=ffffff&bg_color=00000000" alt="Top Languages" width="100%" loading="lazy" />
+                </div>
+            </div>
+            <div class="gh-wide reveal">
+                <img src="https://github-readme-streak-stats.herokuapp.com/?user=pritam-09-ops&theme=transparent&hide_border=true&ring=00F0FF&fire=FF5722&currStreakLabel=00F0FF&sideLabels=ffffff&dates=8b949e&background=00000000" alt="Streak" width="100%" loading="lazy" />
+            </div>
+            <div class="gh-wide reveal">
+                <img src="https://github-readme-activity-graph.vercel.app/graph?username=pritam-09-ops&theme=tokyo-night&hide_border=true&area=true&bg_color=00000000&color=00F0FF&line=FF5722&point=ffffff" alt="Activity" width="100%" loading="lazy" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-line"></div>
+        <p>Designed & built by <strong>Pritam Mandal</strong></p>
+        <p class="footer-sub">IIT Bombay · Energy Science & Engineering · 2026</p>
+    </footer>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-box">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <h3>Let's Connect</h3>
+            <p>Drop me a line — I'm always open to discussing research, projects, or opportunities.</p>
+            <div class="modal-email-row">
+                <code id="email-text">24b1518@iitb.ac.in</code>
+                <button id="copy-btn" class="btn-glow small">Copy</button>
+            </div>
+            <div class="modal-links">
+                <a href="https://github.com/pritam-09-ops" target="_blank">GitHub ↗</a>
+                <a href="https://linkedin.com/in/pritam-mandal" target="_blank">LinkedIn ↗</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
